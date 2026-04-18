@@ -1,0 +1,1990 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Pattern Break — A Private Training for Men Who Lead Everything Except Home</title>
+  <meta name="description" content="Identify the ONE inherited pattern shutting your marriage down — and break it before it costs you everything. 3 self-paced modules for high-performing men." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="The Pattern Break — Private Training for High-Performing Men" />
+  <meta property="og:description" content="You're leaving power, money, and leadership on the table. Identify the inherited pattern shutting your marriage down — and break it." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts: Cabinet Grotesk (display) + Satoshi (body) via Fontshare -->
+  <link
+    href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800,900&f[]=satoshi@300,400,500,700&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    /* ============================================================
+       CSS CUSTOM PROPERTIES
+    ============================================================ */
+    :root {
+      /* Brand Palette */
+      --color-bg:           #0E0F13;
+      --color-surface:      #13141A;
+      --color-surface-2:    #181920;
+      --color-surface-3:    #1E1F28;
+      --color-border:       #252630;
+      --color-divider:      #1C1D26;
+
+      /* Text */
+      --color-text:         #E8E6DF;
+      --color-text-muted:   #8A8999;
+      --color-text-faint:   #4A4A58;
+
+      /* Gold Accent */
+      --color-gold:         #C8A96E;
+      --color-gold-light:   #D9BE8A;
+      --color-gold-dim:     #8C7249;
+      --color-gold-subtle:  rgba(200, 169, 110, 0.08);
+      --color-gold-line:    rgba(200, 169, 110, 0.25);
+
+      /* Fonts */
+      --font-display: 'Cabinet Grotesk', 'Helvetica Neue', sans-serif;
+      --font-body:    'Satoshi', 'Inter', sans-serif;
+
+      /* Type Scale — fluid */
+      --text-xs:    clamp(0.75rem,  0.7rem  + 0.25vw,  0.875rem);
+      --text-sm:    clamp(0.875rem, 0.8rem  + 0.35vw,  1rem);
+      --text-base:  clamp(1rem,     0.95rem + 0.25vw,  1.125rem);
+      --text-lg:    clamp(1.125rem, 1rem    + 0.75vw,  1.5rem);
+      --text-xl:    clamp(1.5rem,   1.2rem  + 1.25vw,  2.25rem);
+      --text-2xl:   clamp(2rem,     1.2rem  + 2.5vw,   3.5rem);
+      --text-3xl:   clamp(2.5rem,   1rem    + 4vw,     5rem);
+      --text-hero:  clamp(3rem,     0.5rem  + 7vw,     7.5rem);
+
+      /* Spacing — 4px base */
+      --space-1:  0.25rem;
+      --space-2:  0.5rem;
+      --space-3:  0.75rem;
+      --space-4:  1rem;
+      --space-5:  1.25rem;
+      --space-6:  1.5rem;
+      --space-8:  2rem;
+      --space-10: 2.5rem;
+      --space-12: 3rem;
+      --space-16: 4rem;
+      --space-20: 5rem;
+      --space-24: 6rem;
+      --space-32: 8rem;
+
+      /* Layout */
+      --content-narrow:  640px;
+      --content-default: 900px;
+      --content-wide:    1160px;
+
+      /* Radius */
+      --radius-sm:   0.375rem;
+      --radius-md:   0.5rem;
+      --radius-lg:   0.75rem;
+      --radius-xl:   1rem;
+      --radius-full: 9999px;
+
+      /* Motion */
+      --ease-out:  cubic-bezier(0.16, 1, 0.3, 1);
+      --ease-in:   cubic-bezier(0.4, 0, 1, 1);
+      --duration:  220ms;
+
+      /* Shadows */
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.5);
+      --shadow-lg: 0 12px 40px rgba(0,0,0,0.6);
+    }
+
+    /* ============================================================
+       BASE RESET + GLOBAL STYLES
+    ============================================================ */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: var(--space-16);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+      text-size-adjust: none;
+      hanging-punctuation: first last;
+    }
+
+    body {
+      min-height: 100dvh;
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      font-family: var(--font-body);
+      font-size: var(--text-base);
+      line-height: 1.65;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-display);
+      text-wrap: balance;
+      line-height: 1.1;
+    }
+
+    p, li, figcaption {
+      text-wrap: pretty;
+      max-width: 68ch;
+    }
+
+    img, picture, video, canvas, svg {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    ul[role="list"], ol[role="list"] {
+      list-style: none;
+    }
+
+    button, input, textarea, select {
+      font: inherit;
+      color: inherit;
+    }
+
+    button {
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    ::selection {
+      background: rgba(200, 169, 110, 0.2);
+      color: var(--color-text);
+    }
+
+    :focus-visible {
+      outline: 2px solid var(--color-gold);
+      outline-offset: 3px;
+      border-radius: var(--radius-sm);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+
+    /* ============================================================
+       LAYOUT UTILITIES
+    ============================================================ */
+    .container {
+      width: 100%;
+      max-width: var(--content-default);
+      margin-inline: auto;
+      padding-inline: clamp(var(--space-5), 5vw, var(--space-12));
+    }
+
+    .container--narrow {
+      max-width: var(--content-narrow);
+    }
+
+    .container--wide {
+      max-width: var(--content-wide);
+    }
+
+    .section {
+      padding-block: clamp(var(--space-16), 10vw, var(--space-32));
+    }
+
+    .section--tighter {
+      padding-block: clamp(var(--space-12), 7vw, var(--space-24));
+    }
+
+    /* ============================================================
+       GEOMETRIC BACKGROUND PATTERN
+    ============================================================ */
+    .geo-bg {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .geo-bg svg {
+      position: absolute;
+      opacity: 0.04;
+    }
+
+    /* ============================================================
+       GOLD DIVIDER LINE
+    ============================================================ */
+    .gold-rule {
+      width: 48px;
+      height: 2px;
+      background: var(--color-gold);
+      display: block;
+      margin-block-end: var(--space-6);
+    }
+
+    .gold-rule--center {
+      margin-inline: auto;
+    }
+
+    /* ============================================================
+       EYEBROW LABEL
+    ============================================================ */
+    .eyebrow {
+      display: inline-block;
+      font-family: var(--font-body);
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-gold);
+      margin-block-end: var(--space-4);
+    }
+
+    /* ============================================================
+       BUTTON STYLES
+    ============================================================ */
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      background: var(--color-gold);
+      color: #0E0F13;
+      font-family: var(--font-display);
+      font-size: var(--text-sm);
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      padding: var(--space-4) var(--space-8);
+      border-radius: var(--radius-full);
+      border: 2px solid var(--color-gold);
+      transition:
+        background var(--duration) var(--ease-out),
+        color var(--duration) var(--ease-out),
+        transform var(--duration) var(--ease-out),
+        box-shadow var(--duration) var(--ease-out);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .btn-primary:hover {
+      background: var(--color-gold-light);
+      border-color: var(--color-gold-light);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(200, 169, 110, 0.25);
+    }
+
+    .btn-primary:active {
+      transform: translateY(0);
+    }
+
+    .btn-primary--lg {
+      font-size: var(--text-base);
+      padding: var(--space-5) var(--space-10);
+    }
+
+    .btn-outline {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      background: transparent;
+      color: var(--color-gold);
+      font-family: var(--font-display);
+      font-size: var(--text-sm);
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      padding: var(--space-4) var(--space-8);
+      border-radius: var(--radius-full);
+      border: 2px solid var(--color-gold-line);
+      transition:
+        background var(--duration) var(--ease-out),
+        border-color var(--duration) var(--ease-out),
+        transform var(--duration) var(--ease-out);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .btn-outline:hover {
+      background: var(--color-gold-subtle);
+      border-color: var(--color-gold);
+      transform: translateY(-2px);
+    }
+
+    /* ============================================================
+       NAVIGATION
+    ============================================================ */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding-block: var(--space-4);
+      transition: background var(--duration) var(--ease-out), box-shadow var(--duration) var(--ease-out);
+    }
+
+    .nav.scrolled {
+      background: rgba(14, 15, 19, 0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      box-shadow: 0 1px 0 var(--color-border);
+    }
+
+    .nav__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-6);
+    }
+
+    .nav__logo {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      font-family: var(--font-display);
+      font-size: var(--text-sm);
+      font-weight: 700;
+      color: var(--color-text);
+      letter-spacing: 0.02em;
+    }
+
+    .nav__logo svg {
+      flex-shrink: 0;
+    }
+
+    .nav__cta {
+      flex-shrink: 0;
+    }
+
+    /* ============================================================
+       HERO SECTION
+    ============================================================ */
+    .hero {
+      position: relative;
+      min-height: 100dvh;
+      display: flex;
+      align-items: center;
+      padding-block-start: clamp(var(--space-24), 15vw, var(--space-32));
+      padding-block-end: clamp(var(--space-20), 12vw, var(--space-32));
+      overflow: hidden;
+    }
+
+    .hero__content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero__overline {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      margin-block-end: var(--space-8);
+    }
+
+    .hero__overline-line {
+      width: 32px;
+      height: 1px;
+      background: var(--color-gold);
+    }
+
+    .hero__overline-text {
+      font-family: var(--font-body);
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--color-gold);
+    }
+
+    .hero__headline {
+      font-family: var(--font-display);
+      font-size: var(--text-3xl);
+      font-weight: 900;
+      line-height: 1.0;
+      letter-spacing: -0.02em;
+      color: var(--color-text);
+      margin-block-end: var(--space-4);
+      max-width: 16ch;
+    }
+
+    .hero__headline em {
+      font-style: normal;
+      color: var(--color-gold);
+    }
+
+    .hero__course-title {
+      font-family: var(--font-display);
+      font-size: var(--text-xl);
+      font-weight: 700;
+      color: var(--color-text-muted);
+      margin-block-end: var(--space-6);
+      letter-spacing: -0.01em;
+    }
+
+    .hero__subhead {
+      font-size: var(--text-base);
+      color: var(--color-text-muted);
+      max-width: 52ch;
+      line-height: 1.7;
+      margin-block-end: var(--space-10);
+    }
+
+    .hero__meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--space-4) var(--space-6);
+      margin-block-end: var(--space-10);
+    }
+
+    .hero__meta-item {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+    }
+
+    .hero__meta-item svg {
+      color: var(--color-gold);
+      flex-shrink: 0;
+    }
+
+    .hero__price {
+      font-family: var(--font-display);
+      font-size: var(--text-2xl);
+      font-weight: 900;
+      color: var(--color-text);
+      letter-spacing: -0.02em;
+    }
+
+    .hero__cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--space-4);
+    }
+
+    .hero__guarantee {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      letter-spacing: 0.04em;
+    }
+
+    /* Hero geometric shapes */
+    .hero__geo {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      pointer-events: none;
+    }
+
+    .hero__geo-circle-1 {
+      position: absolute;
+      width: clamp(300px, 50vw, 700px);
+      height: clamp(300px, 50vw, 700px);
+      border-radius: 50%;
+      border: 1px solid var(--color-gold-line);
+      right: -15%;
+      top: 50%;
+      transform: translateY(-50%);
+      opacity: 0.35;
+    }
+
+    .hero__geo-circle-2 {
+      position: absolute;
+      width: clamp(200px, 35vw, 500px);
+      height: clamp(200px, 35vw, 500px);
+      border-radius: 50%;
+      border: 1px solid var(--color-gold-line);
+      right: -5%;
+      top: 50%;
+      transform: translateY(-50%);
+      opacity: 0.25;
+    }
+
+    .hero__geo-dot {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: var(--color-gold);
+      opacity: 0.6;
+    }
+
+    .hero__geo-line {
+      position: absolute;
+      background: linear-gradient(90deg, var(--color-gold) 0%, transparent 100%);
+      height: 1px;
+      opacity: 0.2;
+    }
+
+    .hero__scroll-indicator {
+      position: absolute;
+      bottom: var(--space-8);
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-2);
+      color: var(--color-text-faint);
+      font-size: var(--text-xs);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      animation: bob 2s ease-in-out infinite;
+    }
+
+    @keyframes bob {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50% { transform: translateX(-50%) translateY(6px); }
+    }
+
+    /* ============================================================
+       SECTION HEADERS
+    ============================================================ */
+    .section-header {
+      margin-block-end: clamp(var(--space-12), 6vw, var(--space-20));
+    }
+
+    .section-header--center {
+      text-align: center;
+    }
+
+    .section-header--center .gold-rule {
+      margin-inline: auto;
+    }
+
+    .section-title {
+      font-family: var(--font-display);
+      font-size: var(--text-2xl);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: var(--color-text);
+      line-height: 1.1;
+    }
+
+    .section-title em {
+      font-style: normal;
+      color: var(--color-gold);
+    }
+
+    .section-body {
+      margin-block-start: var(--space-5);
+      color: var(--color-text-muted);
+      font-size: var(--text-base);
+      max-width: 60ch;
+    }
+
+    .section-body--wide {
+      max-width: 72ch;
+    }
+
+    /* ============================================================
+       THE PROBLEM SECTION
+    ============================================================ */
+    .problem {
+      background: var(--color-surface);
+      border-top: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .problem__grid {
+      display: grid;
+      gap: var(--space-6);
+    }
+
+    .problem__block {
+      padding: var(--space-8);
+      background: var(--color-bg);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      position: relative;
+    }
+
+    .problem__block::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: var(--space-8);
+      width: 40px;
+      height: 2px;
+      background: var(--color-gold);
+    }
+
+    .problem__block p {
+      color: var(--color-text-muted);
+      font-size: var(--text-base);
+      line-height: 1.75;
+      max-width: 100%;
+    }
+
+    .problem__block strong {
+      color: var(--color-text);
+      font-weight: 600;
+    }
+
+    @media (min-width: 720px) {
+      .problem__grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .problem__block:first-child {
+        grid-column: 1 / -1;
+      }
+    }
+
+    /* ============================================================
+       WHAT YOU'LL LEARN — MODULE CARDS
+    ============================================================ */
+    .modules {
+      position: relative;
+    }
+
+    .modules__grid {
+      display: grid;
+      gap: var(--space-6);
+    }
+
+    .module-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-xl);
+      padding: clamp(var(--space-8), 4vw, var(--space-10));
+      position: relative;
+      overflow: hidden;
+      transition: border-color var(--duration) var(--ease-out), box-shadow var(--duration) var(--ease-out);
+    }
+
+    .module-card:hover {
+      border-color: var(--color-gold-dim);
+      box-shadow: 0 0 0 1px rgba(200,169,110,0.1), var(--shadow-md);
+    }
+
+    .module-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--color-gold) 0%, transparent 60%);
+      opacity: 0;
+      transition: opacity var(--duration) var(--ease-out);
+    }
+
+    .module-card:hover::after {
+      opacity: 1;
+    }
+
+    .module-card__number {
+      font-family: var(--font-display);
+      font-size: var(--text-xs);
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-gold);
+      margin-block-end: var(--space-4);
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+    }
+
+    .module-card__number::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--color-border);
+    }
+
+    .module-card__name {
+      font-family: var(--font-display);
+      font-size: var(--text-xl);
+      font-weight: 800;
+      color: var(--color-text);
+      letter-spacing: -0.01em;
+      margin-block-end: var(--space-3);
+    }
+
+    .module-card__pain {
+      font-size: var(--text-sm);
+      font-weight: 600;
+      color: var(--color-text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-block-end: var(--space-5);
+      padding: var(--space-2) var(--space-3);
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      display: inline-block;
+    }
+
+    .module-card__desc {
+      color: var(--color-text-muted);
+      font-size: var(--text-base);
+      line-height: 1.7;
+      margin-block-end: var(--space-6);
+      max-width: 100%;
+    }
+
+    .module-card__win {
+      background: var(--color-gold-subtle);
+      border: 1px solid var(--color-gold-line);
+      border-radius: var(--radius-md);
+      padding: var(--space-4) var(--space-5);
+    }
+
+    .module-card__win-label {
+      font-size: var(--text-xs);
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-gold);
+      margin-block-end: var(--space-2);
+    }
+
+    .module-card__win-text {
+      font-size: var(--text-sm);
+      color: var(--color-text);
+      max-width: 100%;
+      line-height: 1.6;
+    }
+
+    @media (min-width: 900px) {
+      .modules__grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    /* ============================================================
+       THIS IS NOT / THIS IS — CONTRAST SECTION
+    ============================================================ */
+    .contrast {
+      background: var(--color-surface);
+      border-top: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .contrast__grid {
+      display: grid;
+      gap: var(--space-6);
+    }
+
+    @media (min-width: 640px) {
+      .contrast__grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+      }
+    }
+
+    .contrast__panel {
+      padding: clamp(var(--space-8), 5vw, var(--space-12));
+    }
+
+    .contrast__panel--not {
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+    }
+
+    .contrast__panel--is {
+      background: var(--color-surface-3);
+      border: 1px solid var(--color-gold-line);
+      border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+    }
+
+    @media (max-width: 639px) {
+      .contrast__panel--not {
+        border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+      }
+      .contrast__panel--is {
+        border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+        border-top: none;
+      }
+    }
+
+    .contrast__panel-label {
+      font-family: var(--font-display);
+      font-size: var(--text-lg);
+      font-weight: 800;
+      letter-spacing: -0.01em;
+      margin-block-end: var(--space-6);
+    }
+
+    .contrast__panel--not .contrast__panel-label {
+      color: var(--color-text-muted);
+    }
+
+    .contrast__panel--is .contrast__panel-label {
+      color: var(--color-gold);
+    }
+
+    .contrast__list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-4);
+    }
+
+    .contrast__list li {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-3);
+      font-size: var(--text-base);
+      color: var(--color-text-muted);
+      max-width: 100%;
+      line-height: 1.55;
+    }
+
+    .contrast__list li::before {
+      content: '';
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+
+    .contrast__panel--not .contrast__list li::before {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid var(--color-border);
+    }
+
+    .contrast__panel--is .contrast__list li {
+      color: var(--color-text);
+    }
+
+    .contrast__panel--is .contrast__list li::before {
+      background: var(--color-gold);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='8' viewBox='0 0 10 8' fill='none'%3E%3Cpath d='M1 4L3.5 6.5L9 1' stroke='%230E0F13' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    /* ============================================================
+       WHO THIS IS FOR
+    ============================================================ */
+    .audience {
+      position: relative;
+    }
+
+    .audience__list {
+      list-style: none;
+      display: grid;
+      gap: var(--space-4);
+    }
+
+    @media (min-width: 640px) {
+      .audience__list {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .audience__item {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-4);
+      padding: var(--space-5) var(--space-6);
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      transition: border-color var(--duration) var(--ease-out);
+      max-width: 100%;
+    }
+
+    .audience__item:hover {
+      border-color: var(--color-gold-dim);
+    }
+
+    .audience__item-icon {
+      width: 20px;
+      height: 20px;
+      background: var(--color-gold-subtle);
+      border: 1px solid var(--color-gold-line);
+      border-radius: 50%;
+      flex-shrink: 0;
+      margin-top: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .audience__item-icon::after {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: var(--color-gold);
+      border-radius: 50%;
+    }
+
+    .audience__item-text {
+      font-size: var(--text-base);
+      color: var(--color-text-muted);
+      max-width: 100%;
+      line-height: 1.55;
+    }
+
+    .audience__item-text strong {
+      color: var(--color-text);
+      display: block;
+      font-weight: 600;
+      margin-block-end: var(--space-1);
+    }
+
+    /* ============================================================
+       WHAT'S INSIDE
+    ============================================================ */
+    .contents {
+      background: var(--color-surface);
+      border-top: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .contents__inner {
+      display: grid;
+      gap: clamp(var(--space-10), 5vw, var(--space-16));
+    }
+
+    @media (min-width: 800px) {
+      .contents__inner {
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+      }
+    }
+
+    .contents__list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+    }
+
+    .contents__item {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      padding: var(--space-4) var(--space-5);
+      background: var(--color-bg);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      font-size: var(--text-base);
+      color: var(--color-text);
+      max-width: 100%;
+    }
+
+    .contents__item-check {
+      width: 18px;
+      height: 18px;
+      background: var(--color-gold-subtle);
+      border: 1px solid var(--color-gold-line);
+      border-radius: 50%;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .contents__item-check svg {
+      color: var(--color-gold);
+    }
+
+    .contents__callout {
+      padding: clamp(var(--space-8), 4vw, var(--space-10));
+      background: var(--color-bg);
+      border: 1px solid var(--color-gold-line);
+      border-radius: var(--radius-xl);
+      position: relative;
+    }
+
+    .contents__callout::before {
+      content: '"';
+      position: absolute;
+      top: -var(--space-4);
+      left: var(--space-8);
+      font-family: var(--font-display);
+      font-size: 80px;
+      line-height: 1;
+      color: var(--color-gold);
+      opacity: 0.15;
+      top: var(--space-4);
+    }
+
+    .contents__callout-quote {
+      font-family: var(--font-display);
+      font-size: var(--text-lg);
+      font-weight: 700;
+      color: var(--color-text);
+      line-height: 1.4;
+      letter-spacing: -0.01em;
+      margin-block-end: var(--space-5);
+      padding-block-start: var(--space-8);
+    }
+
+    .contents__callout-body {
+      font-size: var(--text-base);
+      color: var(--color-text-muted);
+      line-height: 1.7;
+      max-width: 100%;
+    }
+
+    /* ============================================================
+       PRICING / INVESTMENT SECTION
+    ============================================================ */
+    .pricing {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .pricing__card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      max-width: 640px;
+      margin-inline: auto;
+    }
+
+    .pricing__card-top {
+      padding: clamp(var(--space-8), 5vw, var(--space-12));
+      border-bottom: 1px solid var(--color-border);
+      text-align: center;
+    }
+
+    .pricing__label {
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-gold);
+      margin-block-end: var(--space-3);
+    }
+
+    .pricing__amount {
+      font-family: var(--font-display);
+      font-size: var(--text-3xl);
+      font-weight: 900;
+      color: var(--color-text);
+      letter-spacing: -0.03em;
+      line-height: 1;
+      margin-block-end: var(--space-3);
+    }
+
+    .pricing__desc {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      max-width: 100%;
+    }
+
+    .pricing__card-body {
+      padding: clamp(var(--space-8), 5vw, var(--space-12));
+    }
+
+    .pricing__includes {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+      margin-block-end: var(--space-8);
+    }
+
+    .pricing__includes li {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-3);
+      font-size: var(--text-base);
+      color: var(--color-text);
+      max-width: 100%;
+    }
+
+    .pricing__includes li svg {
+      color: var(--color-gold);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .pricing__roi {
+      background: var(--color-gold-subtle);
+      border: 1px solid var(--color-gold-line);
+      border-radius: var(--radius-md);
+      padding: var(--space-5) var(--space-6);
+      margin-block-end: var(--space-8);
+      font-size: var(--text-base);
+      color: var(--color-text);
+      font-style: italic;
+      line-height: 1.65;
+      max-width: 100%;
+    }
+
+    .pricing__cta {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-3);
+    }
+
+    .pricing__fine {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      text-align: center;
+      letter-spacing: 0.04em;
+    }
+
+    /* ============================================================
+       FINAL CTA SECTION
+    ============================================================ */
+    .final-cta {
+      position: relative;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .final-cta__geo {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .final-cta__geo-ring {
+      position: absolute;
+      border-radius: 50%;
+      border: 1px solid var(--color-gold-line);
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .final-cta__content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .final-cta__headline {
+      font-family: var(--font-display);
+      font-size: var(--text-2xl);
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      color: var(--color-text);
+      line-height: 1.1;
+      margin-block-end: var(--space-5);
+    }
+
+    .final-cta__headline em {
+      font-style: normal;
+      color: var(--color-gold);
+    }
+
+    .final-cta__sub {
+      font-size: var(--text-base);
+      color: var(--color-text-muted);
+      max-width: 50ch;
+      margin-inline: auto;
+      line-height: 1.7;
+      margin-block-end: var(--space-10);
+    }
+
+    .final-cta__cta-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-3);
+    }
+
+    .final-cta__note {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      letter-spacing: 0.04em;
+    }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    .footer {
+      background: var(--color-surface);
+      border-top: 1px solid var(--color-border);
+      padding-block: var(--space-10);
+    }
+
+    .footer__inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-6);
+    }
+
+    .footer__brand {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      font-family: var(--font-display);
+      font-size: var(--text-sm);
+      font-weight: 700;
+      color: var(--color-text-muted);
+    }
+
+    .footer__copy {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+    }
+
+    .footer__links {
+      display: flex;
+      gap: var(--space-6);
+      list-style: none;
+    }
+
+    .footer__links a {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      transition: color var(--duration) var(--ease-out);
+    }
+
+    .footer__links a:hover {
+      color: var(--color-text-muted);
+    }
+
+    /* ============================================================
+       SCROLL ANIMATIONS
+    ============================================================ */
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition:
+        opacity 0.6s var(--ease-out),
+        transform 0.6s var(--ease-out);
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+
+    /* ============================================================
+       GOLD SEPARATOR
+    ============================================================ */
+    .gold-separator {
+      display: flex;
+      align-items: center;
+      gap: var(--space-4);
+      padding-block: var(--space-3);
+    }
+
+    .gold-separator::before,
+    .gold-separator::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--color-border);
+    }
+
+    .gold-separator__dot {
+      width: 6px;
+      height: 6px;
+      background: var(--color-gold);
+      border-radius: 50%;
+      opacity: 0.6;
+    }
+
+    /* ============================================================
+       CREDENTIAL STRIP
+    ============================================================ */
+    .cred-strip {
+      padding-block: var(--space-8);
+      border-top: 1px solid var(--color-border);
+    }
+
+    .cred-strip__inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-6) var(--space-10);
+    }
+
+    .cred-strip__item {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      letter-spacing: 0.05em;
+    }
+
+    .cred-strip__item svg {
+      color: var(--color-gold);
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav class="nav" id="nav" aria-label="Primary navigation">
+    <div class="container">
+      <div class="nav__inner">
+        <!-- Inline SVG Logo -->
+        <a href="#" class="nav__logo" aria-label="The Pattern Break">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="26" height="26" rx="4" stroke="#C8A96E" stroke-width="1.5"/>
+            <path d="M8 9h12M8 14h8M8 19h10" stroke="#C8A96E" stroke-width="1.5" stroke-linecap="round"/>
+            <circle cx="20" cy="19" r="2.5" fill="#C8A96E"/>
+          </svg>
+          The Pattern Break
+        </a>
+        <div class="nav__cta">
+          <a href="#get-access" class="btn-primary">Get Instant Access — $297</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ============================================================
+         HERO
+    ============================================================ -->
+    <section class="hero" aria-labelledby="hero-headline">
+
+      <!-- Geometric background -->
+      <div class="hero__geo" aria-hidden="true">
+        <div class="hero__geo-circle-1"></div>
+        <div class="hero__geo-circle-2"></div>
+        <!-- Grid dots -->
+        <div class="hero__geo-dot" style="top:20%;right:30%;"></div>
+        <div class="hero__geo-dot" style="top:70%;right:22%;opacity:0.3"></div>
+        <div class="hero__geo-dot" style="top:40%;right:45%;opacity:0.2"></div>
+        <!-- Gold lines -->
+        <div class="hero__geo-line" style="top:35%;right:0;width:40%;"></div>
+        <div class="hero__geo-line" style="top:65%;right:0;width:25%;opacity:0.1;"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero__content">
+
+          <div class="hero__overline">
+            <div class="hero__overline-line"></div>
+            <span class="hero__overline-text">Private Training for High-Performing Men</span>
+          </div>
+
+          <h1 class="hero__headline" id="hero-headline">
+            You Lead<br>
+            <em>Everything</em><br>
+            Except Home.
+          </h1>
+
+          <p class="hero__course-title">The Pattern Break</p>
+
+          <p class="hero__subhead">
+            Identify the ONE inherited pattern shutting your marriage down — and break it before it costs you everything.
+            3 modules. No therapy. No blame. Built for the man who's already winning everywhere else.
+          </p>
+
+          <div class="hero__meta">
+            <div class="hero__meta-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+              3 Self-Paced Video Modules
+            </div>
+            <div class="hero__meta-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              Companion Worksheets
+            </div>
+            <div class="hero__meta-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              Instant Lifetime Access
+            </div>
+          </div>
+
+          <div class="hero__cta-group">
+            <a href="#get-access" class="btn-primary btn-primary--lg">
+              Get Instant Access — $297
+            </a>
+            <a href="#modules" class="btn-outline">
+              See What's Inside
+            </a>
+          </div>
+
+          <p class="hero__guarantee" style="margin-top: var(--space-5);">
+            MSW, UNC Chapel Hill · Certified Personal Transformation Coach
+          </p>
+
+        </div>
+      </div>
+
+      <div class="hero__scroll-indicator" aria-hidden="true">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </div>
+
+    </section>
+
+    <!-- Credential strip -->
+    <div class="cred-strip">
+      <div class="container">
+        <div class="cred-strip__inner">
+          <div class="cred-strip__item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            MSW · UNC Chapel Hill
+          </div>
+          <div class="cred-strip__item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            Certified Personal Transformation Coach
+          </div>
+          <div class="cred-strip__item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            Pattern-Level, Not Surface-Level Work
+          </div>
+          <div class="cred-strip__item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            Built for High-Performers
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         THE PROBLEM
+    ============================================================ -->
+    <section class="problem section" aria-labelledby="problem-heading">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="eyebrow">The Real Cost</span>
+          <div class="gold-rule"></div>
+          <h2 class="section-title" id="problem-heading">
+            You didn't get here by accident.<br>
+            But something is <em>costing you</em>.
+          </h2>
+        </div>
+
+        <div class="problem__grid">
+
+          <div class="problem__block reveal">
+            <p>
+              You've built something real. The income, the team, the reputation. You know how to operate in high-pressure environments — you've been doing it for years. <strong>You make decisions at scale that other men won't touch.</strong> That part of your life is working.
+            </p>
+          </div>
+
+          <div class="problem__block reveal reveal-delay-1">
+            <p>
+              And then you walk through the front door. And something shifts. Your wife says something — the same thing she's said a hundred times — and you shut down. Or you get defensive. Or you disappear into work. <strong>You can't quite explain why. You just know it keeps happening.</strong>
+            </p>
+          </div>
+
+          <div class="problem__block reveal reveal-delay-2">
+            <p>
+              The tension at home is bleeding into everything else. Your sleep. Your focus. Your edge. You're running your company at 70% capacity because <strong>a third of your mental bandwidth is parked on unresolved home conflict.</strong> That's not a relationship problem. That's a performance problem.
+            </p>
+          </div>
+
+          <div class="problem__block reveal reveal-delay-3">
+            <p>
+              Here's what nobody told you: what you learned about emotion, conflict, and connection — you learned it before you were ten years old. You didn't choose the blueprint. But <strong>you are running it. Every day. In every conversation that matters.</strong> This training is about finally seeing it clearly enough to change it.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         MODULE CARDS — WHAT YOU'LL LEARN
+    ============================================================ -->
+    <section class="modules section" id="modules" aria-labelledby="modules-heading">
+      <div class="container container--wide">
+
+        <div class="section-header section-header--center reveal">
+          <span class="eyebrow">The 3 Modules</span>
+          <div class="gold-rule gold-rule--center"></div>
+          <h2 class="section-title" id="modules-heading">
+            Three Pattern Breaks.<br>One Foundation.
+          </h2>
+          <p class="section-body" style="margin-inline:auto;text-align:center;">
+            Each module targets a specific pattern that's costing you at home — and by extension, in your business, your sleep, and your leadership.
+          </p>
+        </div>
+
+        <div class="modules__grid">
+
+          <!-- Module 1 -->
+          <article class="module-card reveal">
+            <div class="module-card__number">Module 01</div>
+            <h3 class="module-card__name">"The Blueprint"</h3>
+            <div class="module-card__pain">Emotional Shutdown & Unavailability</div>
+            <p class="module-card__desc">
+              You run boardrooms without flinching. But at home, something triggers a shutdown you can't explain. That response wasn't weakness — it was survival. You learned it from the man who raised you. This module helps you identify the exact moment you disconnect and builds the first capability that changes everything: the ability to stay present for 60 more seconds.
+            </p>
+            <div class="module-card__win">
+              <div class="module-card__win-label">Your Win This Week</div>
+              <p class="module-card__win-text">Identify the exact moment you disconnect — and stay present for 60 more seconds. One minute longer. That's the whole move.</p>
+            </div>
+          </article>
+
+          <!-- Module 2 -->
+          <article class="module-card reveal reveal-delay-1">
+            <div class="module-card__number">Module 02</div>
+            <h3 class="module-card__name">"The Pattern"</h3>
+            <div class="module-card__pain">Same Argument, Different Day</div>
+            <p class="module-card__desc">
+              You and your wife have the same fight. Over and over. You defend. She escalates. Nothing resolves. What looks like a communication problem is actually a script — one you've been running since you were nine years old, watching the adults around you handle conflict. This module shows you the script clearly, so you can interrupt it before it plays out again.
+            </p>
+            <div class="module-card__win">
+              <div class="module-card__win-label">Your Win This Week</div>
+              <p class="module-card__win-text">Name the script. See it clearly for the first time. Interrupt it once this week before it runs to completion.</p>
+            </div>
+          </article>
+
+          <!-- Module 3 -->
+          <article class="module-card reveal reveal-delay-2">
+            <div class="module-card__number">Module 03</div>
+            <h3 class="module-card__name">"The Asset"</h3>
+            <div class="module-card__pain">Marriage as Liability vs. Lever</div>
+            <p class="module-card__desc">
+              Right now, your marriage costs you clarity, sleep, and edge. You are a high-performer running at reduced capacity because of unresolved home tension. You've never been invited to think about your marriage the way you think about your portfolio: as an asset with real ROI. This module reframes the whole equation and builds your first Marriage Asset Map.
+            </p>
+            <div class="module-card__win">
+              <div class="module-card__win-label">Your Win This Week</div>
+              <p class="module-card__win-text">Build your first Marriage Asset Map — what it's costing you now vs. what it unlocks when it's operating at full capacity.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         THIS IS NOT / THIS IS
+    ============================================================ -->
+    <section class="contrast section section--tighter" aria-labelledby="contrast-heading">
+      <div class="container">
+
+        <div class="section-header section-header--center reveal">
+          <span class="eyebrow">Let's Be Direct</span>
+          <div class="gold-rule gold-rule--center"></div>
+          <h2 class="section-title" id="contrast-heading">Know What You're Getting Into</h2>
+        </div>
+
+        <div class="contrast__grid reveal">
+
+          <div class="contrast__panel contrast__panel--not">
+            <h3 class="contrast__panel-label">This is NOT</h3>
+            <ul class="contrast__list" role="list">
+              <li>Therapy or a substitute for clinical mental health support</li>
+              <li>Surface-level communication scripts ("just say this instead")</li>
+              <li>A blame framework — this isn't about who's wrong</li>
+              <li>A quick fix that skips the real work</li>
+              <li>Designed for men in crisis or active separation</li>
+              <li>A replacement for the deeper 1:1 transformation work</li>
+            </ul>
+          </div>
+
+          <div class="contrast__panel contrast__panel--is">
+            <h3 class="contrast__panel-label">This IS</h3>
+            <ul class="contrast__list" role="list">
+              <li>Pattern-level work — root causes, not symptoms</li>
+              <li>Designed specifically for high-performers who don't have time for slow</li>
+              <li>Built on real behavioral science and transformation methodology</li>
+              <li>Practical: each module ends with one concrete action, this week</li>
+              <li>An elevation framework — you are capable of more, not doing it wrong</li>
+              <li>The beginning of a new way of operating at home</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHO THIS IS FOR
+    ============================================================ -->
+    <section class="audience section" aria-labelledby="audience-heading">
+      <div class="container container--wide">
+
+        <div class="section-header reveal">
+          <span class="eyebrow">Is This You?</span>
+          <div class="gold-rule"></div>
+          <h2 class="section-title" id="audience-heading">
+            You'll recognize yourself<br>in most of these.
+          </h2>
+          <p class="section-body">
+            This training was built for a specific man. If this sounds like you, it was built for you.
+          </p>
+        </div>
+
+        <ul class="audience__list reveal" role="list">
+
+          <li class="audience__item">
+            <div class="audience__item-icon" aria-hidden="true"></div>
+            <div class="audience__item-text">
+              <strong>You lead a team of 40. You can't lead a conversation at dinner.</strong>
+              The gap between your professional authority and your home presence is visible — and it costs you.
+            </div>
+          </li>
+
+          <li class="audience__item">
+            <div class="audience__item-icon" aria-hidden="true"></div>
+            <div class="audience__item-text">
+              <strong>You and your wife have been having the same argument for years.</strong>
+              The details change. The dynamic doesn't. You already know something's off — you just can't see the root.
+            </div>
+          </li>
+
+          <li class="audience__item">
+            <div class="audience__item-icon" aria-hidden="true"></div>
+            <div class="audience__item-text">
+              <strong>You've built real wealth, but the man who raised you didn't model intimacy.</strong>
+              You learned how to work hard. You didn't learn how to stay present when things got hard.
+            </div>
+          </li>
+
+          <li class="audience__item">
+            <div class="audience__item-icon" aria-hidden="true"></div>
+            <div class="audience__item-text">
+              <strong>You're not looking for permission to feel things. You want strategy.</strong>
+              Give you a framework that actually works and you'll apply it. You don't need to be convinced — you need clarity.
+            </div>
+          </li>
+
+          <li class="audience__item">
+            <div class="audience__item-icon" aria-hidden="true"></div>
+            <div class="audience__item-text">
+              <strong>Your marriage feels more like a liability than an asset right now.</strong>
+              You're not indifferent. You're depleted. You want this to work — you just don't know how to shift it.
+            </div>
+          </li>
+
+          <li class="audience__item">
+            <div class="audience__item-icon" aria-hidden="true"></div>
+            <div class="audience__item-text">
+              <strong>You know you're operating below your full capacity.</strong>
+              Some part of you understands that if home were working, you'd be untouchable. This is about that gap.
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHAT'S INSIDE
+    ============================================================ -->
+    <section class="contents section section--tighter" aria-labelledby="contents-heading">
+      <div class="container">
+
+        <div class="section-header section-header--center reveal">
+          <span class="eyebrow">Course Contents</span>
+          <div class="gold-rule gold-rule--center"></div>
+          <h2 class="section-title" id="contents-heading">Everything Included</h2>
+        </div>
+
+        <div class="contents__inner">
+
+          <ul class="contents__list reveal" role="list" aria-label="Course contents">
+
+            <li class="contents__item">
+              <div class="contents__item-check" aria-hidden="true">
+                <svg width="10" height="8" viewBox="0 0 10 8" fill="none" aria-hidden="true"><path d="M1 4L3.5 6.5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              Module 1: "The Blueprint" — Emotional Shutdown Video Training
+            </li>
+
+            <li class="contents__item">
+              <div class="contents__item-check" aria-hidden="true">
+                <svg width="10" height="8" viewBox="0 0 10 8" fill="none" aria-hidden="true"><path d="M1 4L3.5 6.5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              Module 2: "The Pattern" — Script Identification Video Training
+            </li>
+
+            <li class="contents__item">
+              <div class="contents__item-check" aria-hidden="true">
+                <svg width="10" height="8" viewBox="0 0 10 8" fill="none" aria-hidden="true"><path d="M1 4L3.5 6.5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              Module 3: "The Asset" — Marriage ROI Framework Video Training
+            </li>
+
+            <li class="contents__item">
+              <div class="contents__item-check" aria-hidden="true">
+                <svg width="10" height="8" viewBox="0 0 10 8" fill="none" aria-hidden="true"><path d="M1 4L3.5 6.5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              Module 1 Worksheet: Disconnect Mapping Exercise
+            </li>
+
+            <li class="contents__item">
+              <div class="contents__item-check" aria-hidden="true">
+                <svg width="10" height="8" viewBox="0 0 10 8" fill="none" aria-hidden="true"><path d="M1 4L3.5 6.5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              Module 2 Worksheet: The Script Map
+            </li>
+
+            <li class="contents__item">
+              <div class="contents__item-check" aria-hidden="true">
+                <svg width="10" height="8" viewBox="0 0 10 8" fill="none" aria-hidden="true"><path d="M1 4L3.5 6.5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              Module 3 Worksheet: Marriage Asset Map Builder
+            </li>
+
+            <li class="contents__item">
+              <div class="contents__item-check" aria-hidden="true">
+                <svg width="10" height="8" viewBox="0 0 10 8" fill="none" aria-hidden="true"><path d="M1 4L3.5 6.5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              Instant, lifetime access — watch on your schedule
+            </li>
+
+          </ul>
+
+          <div class="contents__callout reveal reveal-delay-2">
+            <blockquote class="contents__callout-quote">
+              "The man who understands his own patterns at depth has an unfair advantage — in every room he walks into."
+            </blockquote>
+            <p class="contents__callout-body">
+              Most men are running emotional software that was written for them by the time they turned ten. Nobody audited it. Nobody upgraded it. This training is the audit — and the first upgrade. Three modules. Three concrete wins. Self-paced so you can move as fast or as deliberately as you need.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PRICING / THE INVESTMENT
+    ============================================================ -->
+    <section class="pricing section" id="get-access" aria-labelledby="pricing-heading">
+      <div class="container">
+
+        <div class="section-header section-header--center reveal">
+          <span class="eyebrow">The Investment</span>
+          <div class="gold-rule gold-rule--center"></div>
+          <h2 class="section-title" id="pricing-heading">
+            One decision.<br>
+            <em>Real returns.</em>
+          </h2>
+        </div>
+
+        <div class="pricing__card reveal">
+
+          <div class="pricing__card-top">
+            <p class="pricing__label">The Pattern Break — Full Private Training</p>
+            <div class="pricing__amount">$297</div>
+            <p class="pricing__desc">Instant access. All 3 modules + worksheets. Yours to keep.</p>
+          </div>
+
+          <div class="pricing__card-body">
+
+            <ul class="pricing__includes" role="list">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                3 self-paced video modules with immediate access
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                3 companion worksheets — one concrete action per module
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Pattern-level framework — not surface scripts
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Evergreen — available always, no expiration
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Built by a coach with an MSW from UNC Chapel Hill
+              </li>
+            </ul>
+
+            <div class="pricing__roi">
+              If this work saves your marriage, the ROI is immeasurable. If it returns 10% of your performance capacity, you'll earn it back this quarter. Either way, the math works.
+            </div>
+
+            <div class="pricing__cta">
+              <a href="#get-access" class="btn-primary btn-primary--lg">
+                Get Instant Access — $297
+              </a>
+              <p class="pricing__fine">Secure checkout · Instant access after purchase</p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FINAL CTA
+    ============================================================ -->
+    <section class="final-cta section" aria-labelledby="cta-heading">
+
+      <div class="final-cta__geo" aria-hidden="true">
+        <div class="final-cta__geo-ring" style="width:600px;height:600px;opacity:0.06;"></div>
+        <div class="final-cta__geo-ring" style="width:400px;height:400px;opacity:0.08;"></div>
+        <div class="final-cta__geo-ring" style="width:200px;height:200px;opacity:0.1;"></div>
+      </div>
+
+      <div class="container container--narrow">
+        <div class="final-cta__content">
+
+          <div class="reveal" style="margin-block-end:var(--space-4)">
+            <span class="eyebrow">The Decision</span>
+          </div>
+
+          <h2 class="final-cta__headline reveal" id="cta-heading">
+            You've been capable of this<br>
+            the <em>whole time</em>.
+          </h2>
+
+          <p class="final-cta__sub reveal reveal-delay-1">
+            The patterns you're running aren't flaws. They're inherited software. And you can upgrade them — deliberately, without drama, with the same discipline you've applied to every other area of your life. The only question is whether you're ready to bring that capacity home.
+          </p>
+
+          <div class="final-cta__cta-wrap reveal reveal-delay-2">
+            <a href="#get-access" class="btn-primary btn-primary--lg">
+              Get Instant Access — $297
+            </a>
+            <p class="final-cta__note">3 modules · Instant access · No expiration</p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+
+        <div class="footer__brand">
+          <svg width="20" height="20" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="26" height="26" rx="4" stroke="#C8A96E" stroke-width="1.5" opacity="0.6"/>
+            <path d="M8 9h12M8 14h8M8 19h10" stroke="#C8A96E" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+            <circle cx="20" cy="19" r="2.5" fill="#C8A96E" opacity="0.6"/>
+          </svg>
+          The Pattern Break
+        </div>
+
+        <p class="footer__copy">
+          &copy; <span id="year"></span> The Pattern Break. All rights reserved.
+        </p>
+
+        <nav aria-label="Footer navigation">
+          <ul class="footer__links" role="list">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ============================================================
+    // CURRENT YEAR
+    // ============================================================
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // ============================================================
+    // STICKY NAV — add .scrolled class on scroll
+    // ============================================================
+    (function () {
+      const nav = document.getElementById('nav');
+      let ticking = false;
+
+      function updateNav() {
+        if (window.scrollY > 40) {
+          nav.classList.add('scrolled');
+        } else {
+          nav.classList.remove('scrolled');
+        }
+        ticking = false;
+      }
+
+      window.addEventListener('scroll', function () {
+        if (!ticking) {
+          requestAnimationFrame(updateNav);
+          ticking = true;
+        }
+      }, { passive: true });
+    })();
+
+    // ============================================================
+    // SCROLL REVEAL
+    // ============================================================
+    (function () {
+      const reveals = document.querySelectorAll('.reveal');
+
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+        );
+
+        reveals.forEach(function (el) {
+          observer.observe(el);
+        });
+      } else {
+        // Fallback: show all immediately
+        reveals.forEach(function (el) {
+          el.classList.add('visible');
+        });
+      }
+    })();
+
+    // ============================================================
+    // CTA BUTTON SMOOTH SCROLL TO PRICING
+    // ============================================================
+    (function () {
+      const ctaLinks = document.querySelectorAll('a[href="#get-access"]');
+      const target = document.getElementById('get-access');
+
+      if (!target) return;
+
+      ctaLinks.forEach(function (link) {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          // Update URL without jump
+          history.pushState(null, '', '#get-access');
+        });
+      });
+    })();
+
+    // ============================================================
+    // FORCE DARK MODE (no toggle — page is always dark)
+    // ============================================================
+    document.documentElement.setAttribute('data-theme', 'dark');
+  </script>
+
+</body>
+</html>
